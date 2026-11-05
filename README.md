@@ -45,10 +45,4 @@ O banco atual contém 18 personagens. Os perfis individuais consultados estão e
 
 A Wiki Fandom bloqueou a abertura integral dos perfis nesta sessão com HTTP 402. Os trechos indexados não confirmaram todos os campos; quando a faixa etária não está disponível, o jogo mostra `Unknown` como célula neutra. O banco de 200 fichas solicitado no briefing anterior ainda não foi ampliado.
 
-## Publicar no GitHub Pages
 
-1. Envie este projeto para um repositório GitHub.
-2. Em **Settings → Pages**, escolha **GitHub Actions** como origem.
-3. Envie um commit para a branch `main` ou execute manualmente o workflow **Deploy to GitHub Pages** na aba **Actions**.
-
-O workflow instala dependências, executa os testes, gera `dist` e publica o site. O Vite usa caminhos relativos no build para funcionar em repositórios com qualquer nome.
